@@ -11,9 +11,6 @@ binding = "DATAKITNPMREGISTRYD1"
 database_name = "datakitnpmregistryd1"
 database_id = "86386bce-ca07-413d-a40a-715d7b5039e8"
 
-[observability]
-enabled = true
-
 [assets]
 directory = "./dist"
 binding = "ASSETS"
