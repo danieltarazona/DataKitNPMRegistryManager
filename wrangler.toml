@@ -1,0 +1,19 @@
+name = "datakitnpmregistrymanager"
+main = "src/server/index.ts"
+compatibility_date = "2026-01-15"
+
+[[r2_buckets]]
+binding = "DATAKITNPMREGISTRYR2"
+bucket_name = "datakitnpmregistryr2"
+
+[[d1_databases]]
+binding = "DATAKITNPMREGISTRYD1"
+database_name = "datakitnpmregistryd1"
+database_id = "86386bce-ca07-413d-a40a-715d7b5039e8"
+
+[observability]
+enabled = true
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"

@@ -1,0 +1,30 @@
+{
+    "name": "data-kit-npm-registry-manager",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite build --mode client && wrangler dev --remote",
+        "dev:local": "vite build --mode client && wrangler dev",
+        "build": "vite build --mode client && vite build",
+        "preview": "wrangler dev --remote"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.45.1",
+        "hono": "^4.12.3",
+        "lucide-react": "^0.446.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.26.2"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20260305.0",
+        "@hono/vite-build": "^1.9.3",
+        "@types/react": "^18.3.18",
+        "@types/react-dom": "^18.3.5",
+        "@vitejs/plugin-react": "^4.3.1",
+        "typescript": "^5.5.3",
+        "vite": "^5.4.1",
+        "wrangler": "^4.69.0"
+    }
+}
