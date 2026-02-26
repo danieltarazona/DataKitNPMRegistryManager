@@ -7,7 +7,8 @@
         "dev": "vite build --mode client && wrangler dev --remote",
         "dev:local": "vite build --mode client && wrangler dev",
         "build": "vite build --mode client && vite build",
-        "preview": "wrangler dev --remote"
+        "preview": "wrangler dev --remote",
+        "upload": "git add . && git commit -m 'DataKitNPMRegistryManager' && git push origin main"
     },
     "dependencies": {
         "drizzle-orm": "^0.45.1",
